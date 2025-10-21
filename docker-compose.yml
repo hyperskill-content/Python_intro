@@ -1,0 +1,14 @@
+services:
+  jupyter:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python-intro-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebooks:/workspace/notebooks
+      - ./requirements.txt:/workspace/requirements.txt:ro
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
