@@ -4,3 +4,4 @@ notebook
 ipykernel
 requests
 pydantic
+python-dotenv

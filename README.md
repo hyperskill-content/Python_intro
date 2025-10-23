@@ -6,11 +6,12 @@ To start the development environment:
 ```shell
 docker-compose up -d
 ```
+Access Jupyter Lab at: http://localhost:8888
+
 ### Stop the container
 ```shell
 docker-compose down
 ```
-Access Jupyter Lab at: http://localhost:8888
 
 The notebooks are mounted as a volume, so any changes you make in Jupyter will be reflected in your local `notebooks/` folder and vice versa.
 
