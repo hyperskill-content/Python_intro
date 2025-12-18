@@ -1,5 +1,9 @@
-## Usage
-
+## Usage   
+Clone the repository and change into it:   
+```shell
+git clone git@github.com:hyperskill-content/Python_intro.git
+cd Python_intro
+```
 To start the development environment:
 
 ### Create the .env file from a template
